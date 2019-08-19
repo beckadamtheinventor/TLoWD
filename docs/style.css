@@ -1,0 +1,67 @@
+body {
+  background-color: #13aaad;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 0px 10px;
+}
+h1 {
+  color:#700202;
+}
+h2 {
+  color:#029900;
+}
+img {
+	margin: 2px;
+}
+img.botmimg {
+	position: fixed;
+	bottom: 0%;
+	right: 0%;
+	z-index: 1;
+	overflow-x: hidden;
+}
+img:not(.botmimg) {
+	border: 4px solid black;
+}
+div.sideleft {
+  text-align: center;
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to left, #889999, #8d9696);
+  color: #776373;
+  overflow-x: hidden;
+  border-right: 1px solid black;
+}
+div.sideright {
+  text-align: center;
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 85%;
+  background: linear-gradient(to right, #889999, #8d9696);
+  color: #776373;
+  overflow-x: hidden;
+  border-left: 1px solid black;
+}
+a:not(hover) {
+	color: #f0f0d0;
+}
+a:hover {
+	color: #002000;
+}
+i {
+	color: #ffe0ff;
+}
+button.likebutton:hover {
+	color: white;
+}
+button.likebutton {
+	background: linear-gradient(to bottom, #101040, #000000, #101040);
+	color: aqua;
+}
